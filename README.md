@@ -7,4 +7,4 @@ When running the script you need to provide the following arguments:
 * client_id
 
 For example:
-```kube_sso.py https://keycloak.elminda.com elminda k8s-on-prem```
+```kube_sso.py https://keycloak.example.com my-realm k8s-on-prem```

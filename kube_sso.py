@@ -6,7 +6,7 @@ import sys
 import requests
 
 if len(sys.argv) != 4:
-    raise SystemExit('usage: kube_sso.py idp_server_url realm client_id\nfor example: kube_sso.py https://keycloak.elminda.com elminda k8s-on-prem')
+    raise SystemExit('usage: kube_sso.py idp_server_url realm client_id\nfor example: kube_sso.py https://keycloak.example.com my-realm k8s-on-prem')
 
 idp = sys.argv[1]
 realm = sys.argv[2]
